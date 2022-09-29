@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body   {
+    font-family: 'MedievalSharp', cursive;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    
+   
+}
+
+header  {   
+    width: 100vw;
+    height: 15vh;
+    background-image: url(../assets/images/fondo_lateral_aoe.jpg );
+    animation: backInRight; 
+    animation-duration: 2s;
+    
+
+}
+
+main    {
+    background-image: url(../assets/images/imagenParaIndex.jpg);
+    width: 100vw;
+    height: 80vh;
+   
+}
+
+
+footer  {
+    background-image: url(../assets/images/fondo_lateral_aoe.jpg );
+    font-size: 48px;
+    width: 100vw;
+    height: 5vh;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 24px;
+       
+}
+
+  
+ul  {
+    font-size: 2em;
+    text-align: right;
+    list-style-type: none;
+    font-style: normal;   
+    animation: bounceInDown; 
+    animation-duration: 6s;
+    
+}
+    
+ul  li   {       
+    text-decoration: none; 
+    color: white; 
+    font-family: 'MedievalSharp', cursive;
+    display: inline-block;
+       
+    
+}
+
+ul  li  a { 
+    font-size: 32px;
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+body  {
+    
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover 
+}
+
+header h1 {
+    
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    animation: fadeIn; 
+    animation-duration: 5s;
+}
+
+header h2 {
+    color: white;
+    font-size: 2em;
+    font-family: 'MedievalSharp', cursive;
+    animation: fadeIn; 
+    animation-duration: 4s;
+}
+
+section article h2 {
+      font-size: 72px; color: aqua ; text-align: left; 
+   font-family: 'MedievalSharp', cursive;
+   animation: fadeIn; 
+   animation-duration: 4s;
+}
+
+section article p   {
+    font-size: 2em;    color: white; 
+    font-family: 'MedievalSharp', cursive;
+    align-content: justify;
+    animation: fadeIn; 
+    animation-duration: 4s;
+}
+
+section h3 {
+    font-size: 3em; color: white; text-align: right;
+    font-family: 'MedievalSharp', cursive;  
+    animation: fadeIn; 
+    animation-duration: 4s;
+}
+
+footer  li  a {
+    
+    font-family: 'MedievalSharp', cursive;
+    font-size: 24px;
+       text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 0%;
+    
+    
+}
+
+#footerVideos   { text-align: left; }
+
+.videos {
+    color: white;
+    text-align: center;
+   
+}
+
+
+#tabla   {
+    background-image: url(../assets/images/fondo_tabla.jpg);
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+    animation: fadeIn; 
+    animation-duration: 4s;
+
+}
+
+#enlaces    {
+     
+    position: absolute;
+    float: left;
+    
+        
+}
+
+fieldset    {
+    height: 40vh;
+    width: 30vw;
+    color: white;
+    background-color: black;
+}
+
+td  {
+    list-style-type: none;
+    font-size: 1.3em;
+   }
+
+#textoCiv   {
+    font-family: 'MedievalSharp', cursive;
+    color: white;
+    font-size: 1.5em;
+    
+}
+
+#video  {
+    padding-right: 5%;
+    animation: fadeIn; 
+    text-align: right;
+    animation-duration: 7s;
+}
